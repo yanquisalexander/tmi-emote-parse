@@ -1,6 +1,4 @@
-var fetch = require("node-fetch");
 const EventEmitter = require('events');
-
 class ParseEmitter extends EventEmitter {}
 
 var debug = false;
